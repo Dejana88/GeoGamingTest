@@ -12,13 +12,6 @@ import static pages.TestContext.*;
 
 public class SearchSteps {
 
-
-    @Given("1 equals 1")
-    public void oneEqualsOne() { }
-
-    @Then("1 should equal 1")
-    public void assertOne() { Assert.assertTrue(true); }
-
     SearchPage searchPage = new SearchPage();
 
     @Given("the user has clicked on Search button")

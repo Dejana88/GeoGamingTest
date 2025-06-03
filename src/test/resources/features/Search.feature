@@ -420,10 +420,6 @@ Feature: Search functionality
     And no partial or incorrect results are shown
     And the application remains responsive
 
-  @automated
-  Scenario: basic sanity
-    Given 1 equals 1
-    Then 1 should equal 1
 
 
 
